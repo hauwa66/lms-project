@@ -1,0 +1,91 @@
+{
+  "books": [
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "978-0743273565",
+      "publication_year": 1925,
+      "publisher": "",
+      "genre": "General",
+      "is_reference": false,
+      "_is_checked_out": false
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "978-0446310789",
+      "publication_year": 1960,
+      "publisher": "",
+      "genre": "General",
+      "is_reference": false,
+      "_is_checked_out": false
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "978-0451524935",
+      "publication_year": 1949,
+      "publisher": "",
+      "genre": "General",
+      "is_reference": false,
+      "_is_checked_out": false
+    },
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "978-0132350884",
+      "publication_year": 2008,
+      "publisher": "",
+      "genre": "General",
+      "is_reference": true,
+      "_is_checked_out": false
+    }
+  ],
+  "members": [
+    {
+      "name": "Alice Johnson",
+      "member_id": "M001",
+      "email": "alice@email.com",
+      "phone": "555-0101",
+      "address": "",
+      "registration_date": null,
+      "_borrowed_books": [],
+      "_fines_owed": 0.0,
+      "_is_active": true
+    },
+    {
+      "name": "Bob Smith",
+      "member_id": "M002",
+      "email": "bob@email.com",
+      "phone": "555-0102",
+      "address": "",
+      "registration_date": null,
+      "_borrowed_books": [],
+      "_fines_owed": 0.0,
+      "_is_active": true
+    },
+    {
+      "name": "Carol Davis",
+      "member_id": "M003",
+      "email": "carol@email.com",
+      "phone": "555-0103",
+      "address": "",
+      "registration_date": null,
+      "_borrowed_books": [
+        "978-0132350884"
+      ],
+      "_fines_owed": 0.0,
+      "_is_active": true
+    }
+  ],
+  "loans": [
+    {
+      "book_isbn": "978-0132350884",
+      "member_id": "M002",
+      "checkout_date": "2026-04-15T10:02:24.197721",
+      "due_date": "2026-04-17T10:02:24.197721",
+      "return_date": "2026-04-15T10:05:55.833986",
+      "loan_id": "M002-978-0132350884-1776243744.197721"
+    }
+  ]
+}
